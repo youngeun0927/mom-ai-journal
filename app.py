@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # ==========================================
 # 1. 구글 무료 키(AIza...)를 따옴표 안에 넣어주세요!
-api_key = "AIzaSyCCA__0TiiMbwqWzw_iHYdw4SLu0RsuqSY" 
+api_key = st.secrets["AIzaSyCbsy1vHYZa2GgLKZKsPdbKgPvRv1L5pBU"]
 # ==========================================
 
 # 페이지 설정
