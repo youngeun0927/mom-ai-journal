@@ -3,7 +3,8 @@ import google.generativeai as genai
 
 # ==========================================
 # 1. 구글 무료 키(AIza...)를 따옴표 안에 넣어주세요!
-api_key = st.secrets["AIzaSyCbsy1vHYZa2GgLKZKsPdbKgPvRv1L5pBU"]
+# "GOOGLE_API_KEY"라는 이름표를 가진 비밀번호를 가져와! 라고 해야 합니다.
+api_key = st.secrets["GOOGLE_API_KEY"]
 # ==========================================
 
 # 페이지 설정
